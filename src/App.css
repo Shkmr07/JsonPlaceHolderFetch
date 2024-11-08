@@ -1,0 +1,52 @@
+.items{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.items:hover{
+    transform: scale(1.02);
+}
+
+.items p{
+    font-size:13px;
+    color: gray;
+}
+
+.selected{
+    border: 2px solid blue;
+    background-color: #E0F7FA;
+
+}
+
+.selected h3{
+    color: blue;
+}
+
+.selected p{
+    color: black;
+}
+
+
+/* Loader styling */
+.loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
